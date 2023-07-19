@@ -1,13 +1,12 @@
-//https://leetcode.com/problems/counter/
-
 /**
+ * https://leetcode.com/problems/counter/
  * @param {number} n
  * @return {Function} counter
  */
 
-let createCounter = (n) => {
+function createCounter(n) {
   return () => n++;
-};
+}
 
 const counter = createCounter(10);
 
